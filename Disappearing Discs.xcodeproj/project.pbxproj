@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9BFCCC4220B36B000C6210E /* Disc3.png in Resources */ = {isa = PBXBuildFile; fileRef = D9BFCCC3220B36B000C6210E /* Disc3.png */; };
+		D9DB84C0220A36B500ED0E54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB84BF220A36B500ED0E54 /* AppDelegate.swift */; };
+		D9DB84C2220A36B500ED0E54 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D9DB84C1220A36B500ED0E54 /* GameScene.sks */; };
+		D9DB84C6220A36B500ED0E54 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB84C5220A36B500ED0E54 /* GameScene.swift */; };
+		D9DB84C8220A36B500ED0E54 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB84C7220A36B500ED0E54 /* GameViewController.swift */; };
+		D9DB84CB220A36B500ED0E54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DB84C9220A36B500ED0E54 /* Main.storyboard */; };
+		D9DB84CD220A36B600ED0E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DB84CC220A36B600ED0E54 /* Assets.xcassets */; };
+		D9DB84D0220A36B600ED0E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DB84CE220A36B600ED0E54 /* LaunchScreen.storyboard */; };
+		D9DB84DB220A36B600ED0E54 /* Disappearing_DiscsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB84DA220A36B600ED0E54 /* Disappearing_DiscsTests.swift */; };
+		D9DB84E6220A36B600ED0E54 /* Disappearing_DiscsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB84E5220A36B600ED0E54 /* Disappearing_DiscsUITests.swift */; };
+		D9DB84FD220A370C00ED0E54 /* Pusab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9DB84F4220A370C00ED0E54 /* Pusab.ttf */; };
+		D9DB84FE220A370C00ED0E54 /* GameOverSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9DB84F5220A370C00ED0E54 /* GameOverSound.wav */; };
+		D9DB84FF220A370C00ED0E54 /* Disc2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9DB84F6220A370C00ED0E54 /* Disc2.png */; };
+		D9DB8501220A370C00ED0E54 /* Correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9DB84F8220A370C00ED0E54 /* Correct.wav */; };
+		D9DB8502220A370C00ED0E54 /* Disc1.png in Resources */ = {isa = PBXBuildFile; fileRef = D9DB84F9220A370C00ED0E54 /* Disc1.png */; };
+		D9DB8504220A370C00ED0E54 /* Click.wav in Resources */ = {isa = PBXBuildFile; fileRef = D9DB84FB220A370C00ED0E54 /* Click.wav */; };
+		D9DB8505220A370C00ED0E54 /* DiscsBackgroud.png in Resources */ = {isa = PBXBuildFile; fileRef = D9DB84FC220A370C00ED0E54 /* DiscsBackgroud.png */; };
+		D9DB8507220A391D00ED0E54 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB8506220A391D00ED0E54 /* MainMenuScene.swift */; };
+		D9DB8509220A394D00ED0E54 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DB8508220A394D00ED0E54 /* GameOverScene.swift */; };
+		D9DB850E220A87EF00ED0E54 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DB850D220A87EF00ED0E54 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9DB84D7220A36B600ED0E54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9DB84B4220A36B500ED0E54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9DB84BB220A36B500ED0E54;
+			remoteInfo = "Disappearing Discs";
+		};
+		D9DB84E2220A36B600ED0E54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9DB84B4220A36B500ED0E54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9DB84BB220A36B500ED0E54;
+			remoteInfo = "Disappearing Discs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9BFCCC3220B36B000C6210E /* Disc3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Disc3.png; sourceTree = "<group>"; };
+		D9DB84BC220A36B500ED0E54 /* Disappearing Discs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disappearing Discs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DB84BF220A36B500ED0E54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9DB84C1220A36B500ED0E54 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D9DB84C5220A36B500ED0E54 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D9DB84C7220A36B500ED0E54 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D9DB84CA220A36B500ED0E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9DB84CC220A36B600ED0E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9DB84CF220A36B600ED0E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9DB84D1220A36B600ED0E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DB84D6220A36B600ED0E54 /* Disappearing DiscsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disappearing DiscsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DB84DA220A36B600ED0E54 /* Disappearing_DiscsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disappearing_DiscsTests.swift; sourceTree = "<group>"; };
+		D9DB84DC220A36B600ED0E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DB84E1220A36B600ED0E54 /* Disappearing DiscsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disappearing DiscsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DB84E5220A36B600ED0E54 /* Disappearing_DiscsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disappearing_DiscsUITests.swift; sourceTree = "<group>"; };
+		D9DB84E7220A36B600ED0E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DB84F4220A370C00ED0E54 /* Pusab.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pusab.ttf; sourceTree = "<group>"; };
+		D9DB84F5220A370C00ED0E54 /* GameOverSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOverSound.wav; sourceTree = "<group>"; };
+		D9DB84F6220A370C00ED0E54 /* Disc2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Disc2.png; sourceTree = "<group>"; };
+		D9DB84F8220A370C00ED0E54 /* Correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Correct.wav; sourceTree = "<group>"; };
+		D9DB84F9220A370C00ED0E54 /* Disc1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Disc1.png; sourceTree = "<group>"; };
+		D9DB84FB220A370C00ED0E54 /* Click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Click.wav; sourceTree = "<group>"; };
+		D9DB84FC220A370C00ED0E54 /* DiscsBackgroud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DiscsBackgroud.png; sourceTree = "<group>"; };
+		D9DB8506220A391D00ED0E54 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		D9DB8508220A394D00ED0E54 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		D9DB850D220A87EF00ED0E54 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9DB84B9220A36B500ED0E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DB850E220A87EF00ED0E54 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DB84D3220A36B600ED0E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DB84DE220A36B600ED0E54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9DB84B3220A36B500ED0E54 = {
+			isa = PBXGroup;
+			children = (
+				D9DB84BE220A36B500ED0E54 /* Disappearing Discs */,
+				D9DB84F3220A370C00ED0E54 /* Disappearing Discs Free Assets */,
+				D9DB84D9220A36B600ED0E54 /* Disappearing DiscsTests */,
+				D9DB84E4220A36B600ED0E54 /* Disappearing DiscsUITests */,
+				D9DB84BD220A36B500ED0E54 /* Products */,
+				D9DB850C220A87EF00ED0E54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9DB84BD220A36B500ED0E54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB84BC220A36B500ED0E54 /* Disappearing Discs.app */,
+				D9DB84D6220A36B600ED0E54 /* Disappearing DiscsTests.xctest */,
+				D9DB84E1220A36B600ED0E54 /* Disappearing DiscsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9DB84BE220A36B500ED0E54 /* Disappearing Discs */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB84BF220A36B500ED0E54 /* AppDelegate.swift */,
+				D9DB84C1220A36B500ED0E54 /* GameScene.sks */,
+				D9DB84C5220A36B500ED0E54 /* GameScene.swift */,
+				D9DB8506220A391D00ED0E54 /* MainMenuScene.swift */,
+				D9DB8508220A394D00ED0E54 /* GameOverScene.swift */,
+				D9DB84C7220A36B500ED0E54 /* GameViewController.swift */,
+				D9DB84C9220A36B500ED0E54 /* Main.storyboard */,
+				D9DB84CC220A36B600ED0E54 /* Assets.xcassets */,
+				D9DB84CE220A36B600ED0E54 /* LaunchScreen.storyboard */,
+				D9DB84D1220A36B600ED0E54 /* Info.plist */,
+			);
+			path = "Disappearing Discs";
+			sourceTree = "<group>";
+		};
+		D9DB84D9220A36B600ED0E54 /* Disappearing DiscsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB84DA220A36B600ED0E54 /* Disappearing_DiscsTests.swift */,
+				D9DB84DC220A36B600ED0E54 /* Info.plist */,
+			);
+			path = "Disappearing DiscsTests";
+			sourceTree = "<group>";
+		};
+		D9DB84E4220A36B600ED0E54 /* Disappearing DiscsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB84E5220A36B600ED0E54 /* Disappearing_DiscsUITests.swift */,
+				D9DB84E7220A36B600ED0E54 /* Info.plist */,
+			);
+			path = "Disappearing DiscsUITests";
+			sourceTree = "<group>";
+		};
+		D9DB84F3220A370C00ED0E54 /* Disappearing Discs Free Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB84F4220A370C00ED0E54 /* Pusab.ttf */,
+				D9DB84F5220A370C00ED0E54 /* GameOverSound.wav */,
+				D9DB84F6220A370C00ED0E54 /* Disc2.png */,
+				D9DB84F8220A370C00ED0E54 /* Correct.wav */,
+				D9BFCCC3220B36B000C6210E /* Disc3.png */,
+				D9DB84F9220A370C00ED0E54 /* Disc1.png */,
+				D9DB84FB220A370C00ED0E54 /* Click.wav */,
+				D9DB84FC220A370C00ED0E54 /* DiscsBackgroud.png */,
+			);
+			path = "Disappearing Discs Free Assets";
+			sourceTree = "<group>";
+		};
+		D9DB850C220A87EF00ED0E54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB850D220A87EF00ED0E54 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9DB84BB220A36B500ED0E54 /* Disappearing Discs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DB84EA220A36B600ED0E54 /* Build configuration list for PBXNativeTarget "Disappearing Discs" */;
+			buildPhases = (
+				D9DB84B8220A36B500ED0E54 /* Sources */,
+				D9DB84B9220A36B500ED0E54 /* Frameworks */,
+				D9DB84BA220A36B500ED0E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Disappearing Discs";
+			productName = "Disappearing Discs";
+			productReference = D9DB84BC220A36B500ED0E54 /* Disappearing Discs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9DB84D5220A36B600ED0E54 /* Disappearing DiscsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DB84ED220A36B600ED0E54 /* Build configuration list for PBXNativeTarget "Disappearing DiscsTests" */;
+			buildPhases = (
+				D9DB84D2220A36B600ED0E54 /* Sources */,
+				D9DB84D3220A36B600ED0E54 /* Frameworks */,
+				D9DB84D4220A36B600ED0E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9DB84D8220A36B600ED0E54 /* PBXTargetDependency */,
+			);
+			name = "Disappearing DiscsTests";
+			productName = "Disappearing DiscsTests";
+			productReference = D9DB84D6220A36B600ED0E54 /* Disappearing DiscsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9DB84E0220A36B600ED0E54 /* Disappearing DiscsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9DB84F0220A36B600ED0E54 /* Build configuration list for PBXNativeTarget "Disappearing DiscsUITests" */;
+			buildPhases = (
+				D9DB84DD220A36B600ED0E54 /* Sources */,
+				D9DB84DE220A36B600ED0E54 /* Frameworks */,
+				D9DB84DF220A36B600ED0E54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9DB84E3220A36B600ED0E54 /* PBXTargetDependency */,
+			);
+			name = "Disappearing DiscsUITests";
+			productName = "Disappearing DiscsUITests";
+			productReference = D9DB84E1220A36B600ED0E54 /* Disappearing DiscsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9DB84B4220A36B500ED0E54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Austin Collier";
+				TargetAttributes = {
+					D9DB84BB220A36B500ED0E54 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					D9DB84D5220A36B600ED0E54 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D9DB84BB220A36B500ED0E54;
+					};
+					D9DB84E0220A36B600ED0E54 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D9DB84BB220A36B500ED0E54;
+					};
+				};
+			};
+			buildConfigurationList = D9DB84B7220A36B500ED0E54 /* Build configuration list for PBXProject "Disappearing Discs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9DB84B3220A36B500ED0E54;
+			productRefGroup = D9DB84BD220A36B500ED0E54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9DB84BB220A36B500ED0E54 /* Disappearing Discs */,
+				D9DB84D5220A36B600ED0E54 /* Disappearing DiscsTests */,
+				D9DB84E0220A36B600ED0E54 /* Disappearing DiscsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9DB84BA220A36B500ED0E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DB8502220A370C00ED0E54 /* Disc1.png in Resources */,
+				D9DB8505220A370C00ED0E54 /* DiscsBackgroud.png in Resources */,
+				D9DB84CB220A36B500ED0E54 /* Main.storyboard in Resources */,
+				D9DB84FF220A370C00ED0E54 /* Disc2.png in Resources */,
+				D9DB84FE220A370C00ED0E54 /* GameOverSound.wav in Resources */,
+				D9DB8501220A370C00ED0E54 /* Correct.wav in Resources */,
+				D9DB84C2220A36B500ED0E54 /* GameScene.sks in Resources */,
+				D9DB84FD220A370C00ED0E54 /* Pusab.ttf in Resources */,
+				D9DB84CD220A36B600ED0E54 /* Assets.xcassets in Resources */,
+				D9DB84D0220A36B600ED0E54 /* LaunchScreen.storyboard in Resources */,
+				D9DB8504220A370C00ED0E54 /* Click.wav in Resources */,
+				D9BFCCC4220B36B000C6210E /* Disc3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DB84D4220A36B600ED0E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DB84DF220A36B600ED0E54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9DB84B8220A36B500ED0E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DB8509220A394D00ED0E54 /* GameOverScene.swift in Sources */,
+				D9DB84C6220A36B500ED0E54 /* GameScene.swift in Sources */,
+				D9DB84C8220A36B500ED0E54 /* GameViewController.swift in Sources */,
+				D9DB8507220A391D00ED0E54 /* MainMenuScene.swift in Sources */,
+				D9DB84C0220A36B500ED0E54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DB84D2220A36B600ED0E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DB84DB220A36B600ED0E54 /* Disappearing_DiscsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9DB84DD220A36B600ED0E54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DB84E6220A36B600ED0E54 /* Disappearing_DiscsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9DB84D8220A36B600ED0E54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9DB84BB220A36B500ED0E54 /* Disappearing Discs */;
+			targetProxy = D9DB84D7220A36B600ED0E54 /* PBXContainerItemProxy */;
+		};
+		D9DB84E3220A36B600ED0E54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9DB84BB220A36B500ED0E54 /* Disappearing Discs */;
+			targetProxy = D9DB84E2220A36B600ED0E54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9DB84C9220A36B500ED0E54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DB84CA220A36B500ED0E54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9DB84CE220A36B600ED0E54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9DB84CF220A36B600ED0E54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9DB84E8220A36B600ED0E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9DB84E9220A36B600ED0E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9DB84EB220A36B600ED0E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5DQGPT647;
+				INFOPLIST_FILE = "Disappearing Discs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atcollier.Disappearing-Discs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9DB84EC220A36B600ED0E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B5DQGPT647;
+				INFOPLIST_FILE = "Disappearing Discs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atcollier.Disappearing-Discs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9DB84EE220A36B600ED0E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Disappearing DiscsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atcollier.Disappearing-DiscsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disappearing Discs.app/Disappearing Discs";
+			};
+			name = Debug;
+		};
+		D9DB84EF220A36B600ED0E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Disappearing DiscsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atcollier.Disappearing-DiscsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disappearing Discs.app/Disappearing Discs";
+			};
+			name = Release;
+		};
+		D9DB84F1220A36B600ED0E54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Disappearing DiscsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atcollier.Disappearing-DiscsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Disappearing Discs";
+			};
+			name = Debug;
+		};
+		D9DB84F2220A36B600ED0E54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Disappearing DiscsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "atcollier.Disappearing-DiscsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Disappearing Discs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9DB84B7220A36B500ED0E54 /* Build configuration list for PBXProject "Disappearing Discs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DB84E8220A36B600ED0E54 /* Debug */,
+				D9DB84E9220A36B600ED0E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DB84EA220A36B600ED0E54 /* Build configuration list for PBXNativeTarget "Disappearing Discs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DB84EB220A36B600ED0E54 /* Debug */,
+				D9DB84EC220A36B600ED0E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DB84ED220A36B600ED0E54 /* Build configuration list for PBXNativeTarget "Disappearing DiscsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DB84EE220A36B600ED0E54 /* Debug */,
+				D9DB84EF220A36B600ED0E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9DB84F0220A36B600ED0E54 /* Build configuration list for PBXNativeTarget "Disappearing DiscsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9DB84F1220A36B600ED0E54 /* Debug */,
+				D9DB84F2220A36B600ED0E54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9DB84B4220A36B500ED0E54 /* Project object */;
+}
